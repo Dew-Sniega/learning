@@ -3,7 +3,7 @@
 # -*- coding: UTF-8 -*-
  
 class Student:
-   '所有学生的基类'
+   '鎵�鏈夊鐢熺殑鍩虹被'
    stuCount = 0
  
    def __init__(self, stu_num,name, stu_class,sex):
@@ -28,9 +28,9 @@ class Pupil(Student):
    def __init__(self,skill):
       self.skill = skill
       if self.skill == "recite":
-         Student.canRecite_num += 1
+         Pupil.canRecite_num += 1
       elif self.skill =="oral":
-         Student.canOral_num += 1
+         Pupil.canOral_num += 1
          
 
    def displaycanRecite(self):
@@ -38,7 +38,6 @@ class Pupil(Student):
 
    def displaycanOral(self):
       print "Student num: ",self.canOral_num
-
 
 
 class Middleschstu(Student):
@@ -50,9 +49,9 @@ class Middleschstu(Student):
    def __init__(self,skill):
       self.skill = skill
       if self.skill == "chemistry":
-         Student.canChemistry_num += 1
+         Middleschstu.canChemistry_num += 1
       elif self.skill == "physcis":
-         Student.canPhyscis_num += 1
+         Middleschstu.canPhyscis_num += 1
 
    def displaycanChemistry(self):
        print "Student num: ",self.canChemistry_num
