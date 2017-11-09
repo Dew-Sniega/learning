@@ -3,7 +3,7 @@
 # -*- coding: UTF-8 -*-
  
 class Employee:
-   '所有员工的基类'
+   '脣霉脫脨脭卤鹿陇碌脛禄霉脌脿'
    empCount = 0
  
    def __init__(self, name, salary):
@@ -16,3 +16,4 @@ class Employee:
  
    def displayEmployee(self):
       print "Name : ", self.name,  ", Salary: ", self.salary
+
