@@ -6,6 +6,8 @@ Type "copyright", "credits" or "license()" for more information.
 ['qq', '163', '126']
 >>> re.findall('\w+@(?:qq|163|126).com', y)
 ['123@qq.com', 'aaa@163.com', 'bbb@126.com']
+
+
 >>> y = 'tel:010-12345678 address:changanRoad'
 >>> re.findall('\d', y)
 ['0', '1', '0', '1', '2', '3', '4', '5', '6', '7', '8']
@@ -15,9 +17,13 @@ Type "copyright", "credits" or "license()" for more information.
 ['010-']
 >>> re.findall('\d+-\d+', y)
 ['010-12345678']
+
+
 >>> y = 'localpath C:\code\cnkiCrawl'
 >>> re.findall('[a-zA-Z]:\\\\\w+\\\\\w+', y)
 ['C:\\code\\cnkiCrawl']
+
+
 >>> y = 'Hello Kitty Hello Hello Kitty Kitty Hello Kitty'
 >>> re.findall('(?:Hello ){2}(?:Kitty ){2}', y)
 ['Hello Hello Kitty Kitty ']
