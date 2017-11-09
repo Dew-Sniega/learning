@@ -3,7 +3,7 @@
 # -*- coding: UTF-8 -*-
  
 class Student:
-   '所有学生的基类'
+   '脣霉脫脨脩搂脡煤碌脛禄霉脌脿'
    stuCount = 0
  
    def __init__(self, stu_num,name, stu_class,sex):
@@ -18,3 +18,4 @@ class Student:
  
    def displayStudent(self):
       print "Stu_num: ",self.stu_num,",Name : ", self.name,  ", Stu_class: ", self.stu_class,",Male: ",self.sex
+
