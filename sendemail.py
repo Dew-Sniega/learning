@@ -21,3 +21,4 @@ smtp.connect('smtp.163.com', '25')
 smtp.login('Dew_Sniega@163.com', 'wrwnfcw97')
 smtp.sendmail('Dew_Sniega@163.com', '1205620040@qq.com', str(msg))
 smtp.quit()
+
