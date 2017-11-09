@@ -1,5 +1,6 @@
 # 例1：if 基本用法
 
+
 flag = False
 name = 'luren'
 if name == 'python':
