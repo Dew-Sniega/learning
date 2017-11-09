@@ -1,5 +1,6 @@
 # 例3：if语句多个条件
 
+
 num = 9
 if num >= 0 and num <= 10:
     print('hello')
