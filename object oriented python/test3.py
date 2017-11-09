@@ -21,10 +21,9 @@ class Student:
 
 
 class Pupil(Student):
-   def isYoungpioneers(s1,s2):
-      return [False,True][s2.find(s1)!=-1]
    canRecite_num = 0
    canOral_num = 0
+   
    def __init__(self,skill):
       self.skill = skill
       if self.skill == "recite":
@@ -41,8 +40,6 @@ class Pupil(Student):
 
 
 class Middleschstu(Student):
-   def isLeagueMember(s1,s2):
-      return [False,True][s2.find(s1)!=-1]
    canChemistry_num = 0
    canPhyscis_num = 0
 
