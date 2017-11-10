@@ -6,3 +6,4 @@ while var == 1:
     print("You entered: ", num)
 
 print("Good bye!")
+
