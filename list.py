@@ -7,10 +7,10 @@ Type "copyright", "credits" or "license()" for more information.
 >>> print new_var
 2
 >>> page_num = 1
->>> print "µÚ",page_num,"Ò³"
-µÚ 1 Ò³
->>> print "µÚ"+str(page_num)+"Ò³"
-µÚ1Ò³
+>>> print "ÂµÃš",page_num,"Ã’Â³"
+ÂµÃš 1 Ã’Â³
+>>> print "ÂµÃš"+str(page_num)+"Ã’Â³"
+ÂµÃš1Ã’Â³
 >>> import random
 >>> random.Random()
 <random.Random object at 0x01BB0038>
@@ -79,25 +79,18 @@ TypeError: descriptor 'append' requires a 'list' object but received a 'str'
 2
 >>> max(list2)
 5
->>> touple1 = (1,2,3,4)
->>> touple1 = ('a','b','c')
->>> list(touple1)
-
-Traceback (most recent call last):
-  File "<pyshell#45>", line 1, in <module>
-    list(touple1)
-TypeError: 'list' object is not callable
->>> tuple1=£¨'a','c','e')
-SyntaxError: invalid syntax
->>> tuple2=£¨123,'a','b')
-SyntaxError: invalid syntax
->>> tuple1 =£¨'a','c','e')
-SyntaxError: invalid syntax
->>> tuple1 =('a', 'c', 'e')
+>>> tuple1=('a', 'c', 'e')
 >>> list(tuple1)
-
-Traceback (most recent call last):
-  File "<pyshell#50>", line 1, in <module>
-    list(tuple1)
-TypeError: 'list' object is not callable
+['a', 'c', 'e']
+>>> tuple2 = (123, 'a', 'b')
+>>> list(tuple2)
+[123, 'a', 'b']
+>>> tuple3 = (1, 2, 3 ,4)
+>>> list(tuple2)
+[123, 'a', 'b']
+>>> list(tuple3)
+[1, 2, 3, 4]
+>>> tuple1 = (1,2,3,4)
+>>> list(tuple1)
+[1, 2, 3, 4]
 >>> 
