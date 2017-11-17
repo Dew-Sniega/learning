@@ -55,3 +55,5 @@ class Middleschstu(Student):
 
    def displaycanPhysics(self):
        print "Student num: ",self.canPhyscis_num
+
+     
