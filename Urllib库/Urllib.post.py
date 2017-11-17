@@ -12,3 +12,4 @@ Type "copyright", "credits" or "license()" for more information.
 >>> print response.geturl()
 http://passport.csdn.net/account/login?from=http://my.csdn.net/my/mycsdn
 >>> 
+
