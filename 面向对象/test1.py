@@ -18,3 +18,5 @@ class Student:
  
    def displayStudent(self):
       print "Stu_num: ",self.stu_num,",Name : ", self.name,  ", Stu_class: ", self.stu_class,",Sex: ",self.sex
+    
+    
