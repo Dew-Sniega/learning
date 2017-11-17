@@ -19,7 +19,7 @@ Type "copyright", "credits" or "license()" for more information.
 	<!--<![endif]-->
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>¾²ÃÙ &lsaquo; µÇÂ¼</title>
+	<title>é™è§… &lsaquo; ç™»å½•</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' href='http://cuiqingcai.com/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.7.3' type='text/css' media='all' />
 <link rel="stylesheet" tyssspe="text/css" href="http://cuiqingcai.com/wp-content/themes/Yusi/login/icon.css" /><meta name='robots' content='noindex,follow' />
@@ -27,29 +27,30 @@ Type "copyright", "credits" or "license()" for more information.
 		</head>
 	<body class="login login-action-login wp-core-ui  locale-zh-cn">
 		<div id="login">
-		<h1><a href="https://cn.wordpress.org/" title="»ùÓÚWordPress" tabindex="-1">¾²ÃÙ</a></h1>
+		<h1><a href="https://cn.wordpress.org/" title="åŸºäºWordPress" tabindex="-1">é™è§…</a></h1>
 	
 <form name="loginform" id="loginform" action="http://cuiqingcai.com/wp-login.php" method="post">
 	<p>
-		<label for="user_login">ÓÃ»§Ãû»òµç×ÓÓÊ¼şµØÖ·<br />
+		<label for="user_login">ç”¨æˆ·åæˆ–ç”µå­é‚®ä»¶åœ°å€<br />
 		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
 	</p>
 	<p>
-		<label for="user_pass">ÃÜÂë<br />
+		<label for="user_pass">å¯†ç <br />
 		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
 	</p>
-		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> ¼Ç×¡ÎÒµÄµÇÂ¼ĞÅÏ¢</label></p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> è®°ä½æˆ‘çš„ç™»å½•ä¿¡æ¯</label></p>
 	<p class="submit">
-		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="µÇÂ¼" />
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="ç™»å½•" />
 		<input type="hidden" name="redirect_to" value="http://cuiqingcai.com/wp-admin/" />
 		<input type="hidden" name="testcookie" value="1" />
 	</p>
 </form>
 
 <p id="nav">
-	<a href="http://cuiqingcai.com/wp-login.php?action=lostpassword">Íü¼ÇÃÜÂë£¿</a>
+	<a href="http://cuiqingcai.com/wp-login.php?action=lostpassword">å¿˜è®°å¯†ç ï¼Ÿ</a>
 </p>
 
 <script type="text/javascript">
 function wp_attempt_focus
 >>> 
+
