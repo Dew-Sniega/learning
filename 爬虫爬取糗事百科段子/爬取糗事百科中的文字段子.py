@@ -21,3 +21,5 @@ content_pattern = re.compile('<div class="content">.*?<span>(.*?)</span>',re.S)
 content_list = re.findall(content_pattern, html)
 for item in content_list:
     print item
+
+  
