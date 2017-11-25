@@ -1,4 +1,4 @@
-#ÅÀÈ¡ÂäÍø×¨À¸Ã¿¸öÎÄÕÂµÄurlºÍ±êÌâ
+#çˆ¬å–è½ç½‘ä¸“æ æ¯ä¸ªæ–‡ç« çš„urlå’Œæ ‡é¢˜
 
 # -*- coding:utf-8 -*-
 import urllib
@@ -29,8 +29,7 @@ for i in range (1,70):
         print item.replace('" title=', ' ').replace('class="title', '')
 
         
-#ÊäÈë
-        »Ø³µ¼ÓÔØÏÂÒ»Ò³£¬ÊäÈëQÍË³ö
+#è¾“å…¥å›è½¦åŠ è½½ä¸‹ä¸€é¡µï¼Œè¾“å…¥Qé€€å‡º
     input = raw_input()
     if input == "":
         print "nextPage:"
