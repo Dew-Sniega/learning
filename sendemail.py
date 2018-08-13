@@ -4,7 +4,7 @@ import email.mime.text
 
 msg = email.mime.multipart.MIMEMultipart()
 msg['from'] = 'Dew_Sniega@163.com'
-msg['to'] = '1205620040@qq.com'
+msg['to'] = '*****@qq.com'
 msg['subject'] = 'test'
 content = '''''
     你好，
@@ -18,8 +18,8 @@ msg.attach(txt)
 smtp = smtplib
 smtp = smtplib.SMTP()
 smtp.connect('smtp.163.com', '25')
-smtp.login('Dew_Sniega@163.com', 'wrwnfcw97')
-smtp.sendmail('Dew_Sniega@163.com', '1205620040@qq.com', str(msg))
+smtp.login('Dew_Sniega@163.com', '#授权密码#')
+smtp.sendmail('Dew_Sniega@163.com', '******@qq.com', str(msg))
 smtp.quit()
 
 
